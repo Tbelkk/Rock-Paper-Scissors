@@ -27,22 +27,22 @@ body{
 }
 
 .buttons {
-    float: right; /* Remove float */
+    float: right;
     width: 20%;
-    text-align: center; /* Align buttons to the center */
+    text-align: center;
     margin-top: 10px;
 }
 
 .rock, .paper, .scissor {
     display: block;
-    margin: 10px; /* Add margin to space them out and center horizontally */
+    margin: 10px; 
     background-color: lightgrey;
     border: none;
-    width: 60px; /* Adjust width for better visual representation */
-    height: 60px; /* Adjust height for better visual representation */
+    width: 60px;
+    height: 60px; 
     padding: 20px;
     cursor: pointer;
-    font-size: 20px; /* Set font size directly for the icon */
+    font-size: 20px;
 }
 
 .rock i, .paper i, .scissor i {

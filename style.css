@@ -1,0 +1,93 @@
+body{
+    background-color: white;
+}
+
+.title{
+    text-align: center;
+    font-weight: bold;
+}
+
+.score{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.player-score{
+    display: inline;
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.comp-score{
+    display: inline;
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.buttons {
+    float: right; /* Remove float */
+    width: 20%;
+    text-align: center; /* Align buttons to the center */
+    margin-top: 10px;
+}
+
+.rock, .paper, .scissor {
+    display: block;
+    margin: 10px; /* Add margin to space them out and center horizontally */
+    background-color: lightgrey;
+    border: none;
+    width: 60px; /* Adjust width for better visual representation */
+    height: 60px; /* Adjust height for better visual representation */
+    padding: 20px;
+    cursor: pointer;
+    font-size: 20px; /* Set font size directly for the icon */
+}
+
+.rock i, .paper i, .scissor i {
+    font-size: 20px;
+}
+
+.reset{
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+}
+
+.reset-button{
+    background-color: #D22B2B;
+    color: white;
+    cursor: pointer;
+    border: none;
+    width: 100px;
+    height: 30px;
+}
+
+.hands{
+    padding-top: 10px;
+    width: 40%;
+    margin-left: 30%;
+}
+
+.hands #compHand{
+    font-size: 200px;
+    transform : rotate(90deg);
+}
+
+.hands #playerHand{
+    font-size: 200px;
+    float: right;
+    transform : rotate(-90deg);
+}
+
+.result{
+    color: white;
+    background-color: green;
+    margin-top: 20px;
+    border-style: solid;
+    text-align: center;
+    visibility: hidden;
+}
+
+

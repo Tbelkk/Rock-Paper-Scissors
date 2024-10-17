@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header class="title" id="title">
+        <h1>Rock Paper Scissors</h1>
+    </header>
+    
+    <div class="score" id="score">
+            <p class="player-score" id="player-score"></p>
+            <p class="comp-score" id="comp-score"></p>
+    </div>
+
+    <section class="reset" id="reset">
+        <button class="reset-button" id="reset-button">Reset Score</button>
+    </section>
+
+    <section class="buttons" id="buttons">
+        <div class="buttons-center">
+            <button class="rock" id="rock"><i class="fa-solid fa-hand-fist"></i></button>
+            <button class="paper" id="paper"><i class="fa-solid fa-hand"></i></button>
+            <button class="scissor" id="scissor"><i class="fa-solid fa-hand-scissors"></i></button>
+        </div>
+    </section>
+
+    <section class="hands" id="hands">
+        <i class="fa-solid fa-hand-fist" id="playerHand"></i>
+        <i class="fa-solid fa-hand" id="compHand"></i>
+    </section>
+
+    <section class="result" id="result">
+        <h2 id="win-lose">You Win!</h2>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/44ccc92dd5.js" crossorigin="anonymous"></script>
+</body>
+</html>
